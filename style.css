@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: black;
+}
+
+.postcard {
+  background-color: white;
+  width: 50%;
+  margin: 160px auto;
+  padding: 20px;
+  display: block;
+}
+
+.postcard-header {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postcard-header img {
+  vertical-align: middle;
+  height: 80px;
+}
+
+.postcard-body {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+}

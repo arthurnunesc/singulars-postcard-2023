@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Postal Card</title>
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Postal Card</title>
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="postcard">
+    <div class="postcard-header">
       <h1>My Postcard</h1>
-      <img
-        src="https://github.com/breatheco-de/exercise-postcard/blob/main/.learn/assets/4geeks.png?raw=true"
-        alt="logo 4geeks"
-      />
-    </header>
-    <main>
+      <img src="https://github.com/breatheco-de/exercise-postcard/blob/main/.learn/assets/4geeks.png?raw=true"
+        alt="logo 4geeks" />
+    </div>
+    <div class="postcard-body">
       <article>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -29,13 +28,19 @@
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia deserunt mollit anim id est laborum.
         </p>
-        <form action="">
-          <input type="text" value="Your Name" />
-          <input type="text" value="Your email" />
-          <input type="text" value="Your Comment" />
-        </form>
       </article>
+      <form action="">
+        <input type="text" value="Your Name" />
+        <input type="text" value="Your email" />
+        <input type="text" value="Your Comment" />
+      </form>
+    </div>
+    <div class="postcard-footer">
       <button>Submit my Postcard</button>
-    </main>
-  </body>
+    </div>
+  </div>
+
+  </main>
+</body>
+
 </html>
