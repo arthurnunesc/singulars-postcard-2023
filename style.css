@@ -30,3 +30,17 @@ body {
   margin: 0 10%;
   display: flex;
 }
+
+.postcard-body form input {
+  color: gray;
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid gray;
+}
+.postcard-body form input + input {
+  margin-top: 10px;
+}
+.postcard-body form input:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}
